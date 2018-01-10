@@ -19,4 +19,9 @@ ggplot(data=gapminder) +
                          size = gapminder$pop, colour=gapminder$continent))+
   facet_wrap(gapminder$continent)
 
+### Git
 list.files(all.files = TRUE)
+list.files(".git", recursive=TRUE)
+
+
+
